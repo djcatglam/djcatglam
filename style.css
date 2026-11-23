@@ -73,6 +73,7 @@ em { color: var(--coral); font-style: normal; }
   align-items: center;
   gap: 20px;
   min-height: 610px;
+  overflow: hidden;
 }
 .hero-type { position: relative; z-index: 2; padding: 60px 0 72px; }
 .hero .eyebrow { color: var(--mauve); }
@@ -87,10 +88,9 @@ em { color: var(--coral); font-style: normal; }
 .button-dark { background: var(--ink); color: var(--white); }
 .text-link { padding-bottom: 5px; border-bottom: 1px solid; font-size: 12px; font-weight: 700; }
 .portrait-stage { position: relative; align-self: stretch; min-height: 610px; }
-.portrait-disc {
+.portrait-stage img {
   position: absolute;
-  top: 50px;
-  left: 5%;
-  width: min(480px, 100%);
-  aspect-ratio: 1;
-  background: var(--coral);
+  z-index: 2;
+  right: -10%;
+  bottom: 0;
+  width: auto;
