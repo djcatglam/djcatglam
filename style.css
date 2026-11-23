@@ -1,0 +1,156 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800;900&family=Montserrat:wght@400;500;600;700&display=swap');
+
+:root {
+  --coral: #ff565d;
+  --mauve: #51495d;
+  --ink: #191919;
+  --paper: #f7f6f2;
+  --muted: #666;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.6;
+}
+
+h1, h2 {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-weight: 900;
+  line-height: 0.95;
+  text-transform: uppercase;
+}
+
+h1 {
+  font-size: clamp(5rem, 15vw, 13rem);
+  margin: 0;
+}
+
+h2 {
+  font-size: clamp(3.5rem, 8vw, 7rem);
+  margin: 0 0 30px;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--coral);
+}
+
+header {
+  padding: 24px 5%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+  background: var(--mauve);
+  color: white;
+}
+
+header > a {
+  font-weight: 700;
+  letter-spacing: 0.04em;
+}
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+section {
+  padding: 100px 5%;
+}
+
+#home {
+  min-height: 75vh;
+  background: var(--coral);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#home p {
+  font-size: clamp(1.1rem, 2vw, 1.6rem);
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+#about {
+  background: var(--ink);
+  color: white;
+}
+
+#about p {
+  max-width: 650px;
+  font-size: 1.15rem;
+}
+
+#mixes {
+  background: var(--paper);
+}
+
+#mixes > a {
+  display: block;
+  padding: 24px 0;
+  border-bottom: 1px solid #d9d7d1;
+  font-weight: 700;
+}
+
+#experience {
+  background: var(--mauve);
+  color: white;
+}
+
+#contact {
+  background: var(--coral);
+}
+
+#contact a {
+  display: block;
+  width: fit-content;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+footer {
+  background: var(--ink);
+  color: white;
+  padding: 30px 5%;
+  font-size: 12px;
+}
+
+@media (max-width: 700px) {
+  header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  nav {
+    gap: 15px;
+  }
+
+  section {
+    padding: 70px 6%;
+  }
+
+  h1 {
+    font-size: clamp(4rem, 18vw, 7rem);
+  }
+}
