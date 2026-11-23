@@ -161,18 +161,20 @@ em {
 }
 .portrait-stage {
   position: relative;
-  height: 610px;
+  height: 620px;
   align-self: stretch
 }
 .portrait-disc {
   position: absolute;
   width: 480px;
   height: 480px;
-  max-width: 120%;
+  aspect-ratio: 1 / 1;
+  max-width: none;
+  flex-shrink: 0;
   background: var(--coral);
   border-radius: 50%;
   top: 65px;
-  left: 3%
+  left: 3%;
 }
 .portrait-stage img {
   position: absolute;
