@@ -130,8 +130,10 @@ footer { background:var(--ink); color:white; }
  .facts strong { font-size:10px; }
  .section-top { display:block; }
  .section-top>p { margin-top:15px; }
- .gallery-grid { grid-template-columns:repeat(2,minmax(0,1fr)); grid-auto-rows:170px; gap:9px; }
- .gallery-feature { grid-column:span 2; grid-row:auto; height:270px; }
+ .gallery-grid { grid-template-columns:repeat(2,minmax(0,1fr)); grid-auto-rows:auto; gap:9px; }
+ .gallery-item { aspect-ratio:1 / 1; }
+ .gallery-feature { grid-column:1 / -1; grid-row:auto; height:auto; aspect-ratio:3 / 4; }
+ .gallery-feature img { object-fit:contain; object-position:center; background:#171717; }
  .gallery-item span { font-size:9px; left:8px; bottom:8px; }
  .mix-card { padding:22px; }
  .mix-card h3 { font-size:4rem; }
