@@ -14,7 +14,7 @@ a:hover { opacity:.8; }
 a:focus-visible { outline:3px solid var(--coral); outline-offset:4px; }
 img { display:block; max-width:100%; }
 h1,h2,h3,p { margin:0; }
-h1,h2,h3 { font-family:'Barlow Condensed',Impact,sans-serif; font-weight:900; line-height:1; }
+h1,h2,h3 { font-family:'Barlow Condensed',Impact,sans-serif; font-weight:900; line-height:0.8; }
 em { color:var(--coral); font-style:normal; }
 .wrap { width:min(1260px,90%); margin-inline:auto; }
 .section-pad { padding:90px 0; }
@@ -76,7 +76,7 @@ em { color:var(--coral); font-style:normal; }
 .mix-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:20px; }
 .mix-card { min-width:0; background:var(--coral); padding:26px; }
 .mix-number { font-size:12px; font-weight:700; letter-spacing:.13em; }
-.mix-card h3 { font-size:clamp(3.4rem,5vw,5.5rem); line-height:1; margin:20px 0 24px; }
+.mix-card h3 { font-size:clamp(3.4rem,5vw,5.5rem); margin:20px 0 24px; }
 .mix-card iframe { border:0; width:100%; display:block; background:white; }
 .mix-card>a { display:inline-block; margin-top:15px; font-size:12px; font-weight:700; border-bottom:1px solid; }
 
