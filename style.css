@@ -50,8 +50,7 @@ em { color:var(--coral); font-style:normal; }
 .about-copy p { margin-bottom:16px; }
 .about-copy .lead { font-size:19px; font-weight:700; line-height:1.45; margin-bottom:22px; }
 .facts { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:13px; border-top:1px solid #ddd; margin-top:25px; padding-top:20px; }
-.facts small { display:block; color:var(--coral); font-size:11px; font-weight:700; }
-.facts strong { display:block; font-size:11px; margin-top:6px; }
+.facts strong { display:block; margin-top:6px; }
 
 /* Shared section intro */
 .section-top { display:flex; align-items:end; justify-content:space-between; gap:30px; margin-bottom:35px; }
@@ -127,7 +126,6 @@ footer { background:var(--ink); color:white; }
  .section-heading h2,.section-top h2,.contact h2 { font-size:clamp(3.3rem,11vw,5rem); }
  .about-copy .lead { font-size:17px; }
  .facts { gap:10px; }
- .facts strong { font-size:10px; }
  .section-top { display:block; }
  .section-top>p { margin-top:15px; }
  .gallery-grid { grid-template-columns:repeat(2,minmax(0,1fr)); grid-auto-rows:auto; gap:9px; }
