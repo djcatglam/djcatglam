@@ -18,8 +18,8 @@ body {
   background: var(--paper);
   color: var(--ink);
   font-family: Montserrat, Arial, sans-serif;
-  font-size: 14px;
-  line-height: 1.65
+  font-size: 16px;
+  line-height: 1.5
 }
 a {
   color: inherit;
@@ -176,26 +176,12 @@ em {
 }
 .portrait-stage img {
   position: absolute;
-  height: 95%;
+  height: 100%;
   width: auto;
   max-width: none;
   bottom: -1%;
   right: -10%;
   z-index: 2
-}
-.portrait-star {
-  position: absolute;
-  color: var(--mauve);
-  z-index: 3;
-  font-size: 50px
-}
-.portrait-star.one {
-  right: 0;
-  top: 10%
-}
-.portrait-star.two {
-  left: 5%;
-  bottom: 16%
 }
 .hero-index {
   position: absolute;
