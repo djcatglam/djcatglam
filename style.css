@@ -14,7 +14,7 @@ a:hover { opacity:.8; }
 a:focus-visible { outline:3px solid var(--coral); outline-offset:4px; }
 img { display:block; max-width:100%; }
 h1,h2,h3,p { margin:0; }
-h1,h2,h3 { font-family:'Barlow Condensed',Impact,sans-serif; font-weight:900; line-height:0.8; }
+h1,h2,h3 { font-family:'Barlow Condensed',Impact,sans-serif; font-weight:900; line-height:85%; }
 em { color:var(--coral); font-style:normal; }
 .wrap { width:min(1260px,90%); margin-inline:auto; }
 .section-pad { padding:90px 0; }
