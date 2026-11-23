@@ -44,7 +44,6 @@ em { color:var(--coral); font-style:normal; }
 .marquee { width:100%; overflow:hidden; background:var(--coral); color:var(--white); padding:15px 0; transform:none; margin:0; }
 .marquee-track { display:flex; width:max-content; animation:marquee-scroll 36s linear infinite; }
 .marquee-group { display:flex; flex:0 0 auto; align-items:center; gap:28px; padding-right:28px; white-space:nowrap; font-size:12px; font-weight:700; letter-spacing:.07em; }
-.marquee-group b { font-size:17px; color:var(--coral); font-weight:600; }
 @keyframes marquee-scroll { from { transform:translateX(0); } to { transform:translateX(-50%); } }
 @media (prefers-reduced-motion:reduce) { html { scroll-behavior:auto; } .marquee-track { animation:none; } }
 .star { position: static; width: 12px; height: 12px; object-fit: contain; flex-shrink: 0; pointer-events: none; }
